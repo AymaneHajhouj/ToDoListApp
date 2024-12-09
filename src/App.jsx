@@ -122,7 +122,7 @@ const App = () => {
   return (
     <div className="container">
       <header className="header">
-        <h1 className="title">React To-Do List</h1>
+        <h1 className="title">To-Do List</h1>
         <button className="toggle-mode" onClick={toggleDarkMode}>
           {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
         </button>
